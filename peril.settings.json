@@ -1,0 +1,11 @@
+{
+    "settings": {
+      "onlyForOrgMembers": false
+    },
+    "rules": {
+      "pull_request": "rybeusz/test-peril@dangerfiles/pr.js",
+      "issue": "rybeusz/test-peril@dangerfiles/is.js"
+    },
+    "repos" : {
+    }
+  }

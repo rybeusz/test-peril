@@ -1,3 +1,4 @@
-import {message} from "danger"
+import {message, danger} from "danger"
 
-message("Hello from Peril on your PR.")
+const modifiedMD = danger.git.modified_files.join("- ")
+message("Changed Files in this PR: \n - " + modifiedMD)
